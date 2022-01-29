@@ -1,8 +1,8 @@
-import * as plogTypes from "./plogTypes.js";
-import * as flogTypes from "./flogTypes.js";
+import * as obj1 from "./plogTypes.js";
+import * as obj2 from "./flogTypes.js";
 
-export const plogTypes;
-export const flogTypes;
+export const plogTypes = obj1;
+export const flogTypes = obj2;
 
 export * from "./models/Abonnement.js";
 export * from "./models/Account.js";
